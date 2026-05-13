@@ -17,7 +17,7 @@ public class LoginValidator {
             return false;
         }
 
-        return password.length() >= 8;
+        return password.length() >= 20;
     }
 
     public boolean canLogin(String studentId, String password) {
